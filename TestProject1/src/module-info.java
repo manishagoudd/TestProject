@@ -24,7 +24,7 @@ public class TestProject1 {
 	Thread.sleep(3000);
 	//enter username
 	WebElement user=driver.findElement(By.cssSelector("[autocomplete] ._351hSN:nth-of-type(1) ._2IX_2-"));
-	user.sendKeys("manishaasagoni@gmail.com");
+	user.sendKeys("manishaasagoni@yahoo.com");
 	// enter password
 	WebElement pass=driver.findElement(By.cssSelector(".VJZDxU._2IX_2-._3mctLh"));
 	pass.sendKeys("Manisha@");
