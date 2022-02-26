@@ -27,7 +27,7 @@ public class TestProject1 {
 	user.sendKeys("manishaasagoni@gmail.com");
 	// enter password
 	WebElement pass=driver.findElement(By.cssSelector(".VJZDxU._2IX_2-._3mctLh"));
-	pass.sendKeys("Manisha@123");
+	pass.sendKeys("Manisha@");
 	//login page
 	WebElement login=driver.findElement(By.cssSelector("._2HKlqd._2KpZ6l._3AWRsL > span"));
 	login.click();
